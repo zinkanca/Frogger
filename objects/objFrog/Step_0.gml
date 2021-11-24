@@ -48,3 +48,9 @@ if controllerRight == 1 and moving == true
 	audio_play_sound(soundJump, 5, false);
 }
 
+if lives == 0
+{
+	room_goto(Room2);
+	audio_stop_sound(soundMusic);
+}
+

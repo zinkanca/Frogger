@@ -1,10 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-moving = true;
-scoreValue = y;
+x += 4;	
 
-
-sprite_index = sprFrogUp;
-
-
-
+move_wrap(true, true, sprite_width);
