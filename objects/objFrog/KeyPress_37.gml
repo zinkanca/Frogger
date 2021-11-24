@@ -6,6 +6,7 @@ if moving == true
 	x -= 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 90;
+	sprite_index = sprFrogLeft;
+	audio_play_sound(soundJump, 5, false);
 }
 

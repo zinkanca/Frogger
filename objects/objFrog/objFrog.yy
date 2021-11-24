@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprFrog",
-    "path": "sprites/sprFrog/sprFrog.yy",
+    "name": "sprFrogUp",
+    "path": "sprites/sprFrogUp/sprFrogUp.yy",
   },
   "solid": true,
   "visible": true,
@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":40,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

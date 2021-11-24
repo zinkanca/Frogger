@@ -6,6 +6,7 @@ if moving == true
 	y -= 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 0;
+	sprite_index = sprFrogUp;
+	audio_play_sound(soundJump, 5, false);
 }
 

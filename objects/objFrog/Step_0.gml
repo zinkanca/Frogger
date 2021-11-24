@@ -5,12 +5,20 @@ controllerDown = gamepad_button_check(0, gp_padd);
 controllerLeft = gamepad_button_check(0, gp_padl);
 controllerRight = gamepad_button_check(0, gp_padr);
 
+
+if y < scoreValue 
+{
+	scoreValue = y;
+	score += 10;
+}
+
 if controllerUp == 1 and moving == true 
 {
 	y -= 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 0;
+	sprite_index = sprFrogUp;
+	audio_play_sound(soundJump, 5, false);
 }
 
 if controllerDown == 1 and moving == true 
@@ -18,7 +26,8 @@ if controllerDown == 1 and moving == true
 	y += 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 180;
+	sprite_index = sprFrogDown;
+	audio_play_sound(soundJump, 5, false);
 }
 
 if controllerLeft == 1 and moving == true 
@@ -26,7 +35,8 @@ if controllerLeft == 1 and moving == true
 	x -= 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 90;
+	sprite_index = sprFrogLeft;
+	audio_play_sound(soundJump, 5, false);
 }
 
 if controllerRight == 1 and moving == true 
@@ -34,5 +44,7 @@ if controllerRight == 1 and moving == true
 	x += 32;
 	moving = false;
 	alarm[0] = 15;
-	image_angle = 270;
+	sprite_index = sprFrogRight;
+	audio_play_sound(soundJump, 5, false);
 }
+
